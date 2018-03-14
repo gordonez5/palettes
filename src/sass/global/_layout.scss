@@ -1,0 +1,92 @@
+// $bgtest: $searchPanelBG; // rgb(37, 42, 50) | crystalBlack
+// $bgtest: $holidaySummaryBG; // rgb(37, 42, 50) | crystalBlack
+// $bgtest: $summaryPanel; // rgb(37, 42, 50) | crystalBlack
+// $bgtest: $breadCrumbs; // rgb(37, 42, 50) | crystalBlack
+
+// $bgtest: $travel-border-color; // rgb(249, 249, 249); | pale grey
+// $bgtest: $searchPanelModalBG; // rgb(224, 224, 224) | grey
+// $bgtest: $new-summary-panel-grey-color; // rgb(115, 113, 130) | darkish grey
+// $bgtest: $sectionGrey; // rgb(249,249,249) | section grey
+// $bgtest: $sectionGreyDk; // rgb(209,209,209) | section grey dark
+
+
+// $bgtest: $colorThree; // rgb(0, 206, 155) | crystalGreen
+// $bgtest: $searchPanelBtnBG; // rgb(0, 206, 155) | crystalGreen
+// $bgtest: $searchPanelBtnBorder; // rgb(0, 155, 117) | crystalGreen (5% darker)
+// $bgtest: $tertiaryBtnBG; // rgb(0, 206, 155) | crystalGreen
+// $bgtest: $tertiaryBtnBorder; // rgb(0, 181, 136) | crystalGreen (5% darker)
+// $bgtest: $colorOne; // rgb(0, 89, 89) | crystalDarkGreen
+
+// $bgtest: $colorFour; // rgb(204, 245, 235) | crystalLightGreen
+// $bgtest: $lightBrand; // rgb(204, 245, 235) | crystalLightGreen
+
+// $bgtest: $shadow; // rgb(245, 253, 251) | super pale green
+// $bgtest: $new-summary-panel-bg-color; // rgb(245, 253, 251) | super pale green
+// $bgtest: $infoBoxBorder; // rgb(206, 225, 225) | very pale green
+// $bgtest: $borderColour; // rgb(206, 225, 225) | very pale green
+// $bgtest: $infoBoxHeaderBG; // rgb(245, 253, 251) | super pale green
+// $bgtest: $infoBoxContentBG; // rgb(245, 253, 251) | super pale green
+
+// $bgtest: $new-summary-panel-span-color; // rgb(100, 155, 153) | greeny
+
+// $bgtest: $searchPanelSeperator; // rgb(0, 205, 155) | bright green
+// $bgtest: $infoBoxHeaderText; // rgb(0, 89, 89) | crystalDarkGreen
+// $bgtest: $new-summary-panel-border-color; // rgb(90, 168, 150) | green
+// $bgtest: $new-summary-panel-section-bg-color; // rgb(205, 245, 235) | green
+// $bgtest: $new-summary-panel-header-color; // rgb(27, 104, 103) | green
+// $bgtest: $new-summary-panel-strong-color; // rgb(36, 109, 109) | green
+
+// $bgtest: $colorTwo; // rgb(132, 50, 155) | crystalPurple
+$bgtest: $secondaryBtnBG; // rgb(101, 19, 124) | crystalDarkPurple
+// $bgtest: $secondaryBtnBorder; // rgb(83, 16, 102) | crystalDarkPurple (5% darker)
+// $bgtest: $new-summary-panel-purple; // rgb(133, 61, 155) | crystalNewPurple
+
+// $bgtest: $colorFive; // rgb(255, 215, 46) | Yellow
+
+// $bgtest: $colorSix; // rgb(99, 155, 198) | crystalBlue
+// $bgtest: $linkColor; // rgb(99, 155, 198) | crystalBlue
+
+// $bgtest: $linkColorHover; // rgb(228, 0, 70) | bright red
+// $bgtest: $primaryBtnBG; // rgb(192, 2, 62) | crystalRed
+// $bgtest: $primaryBtnBorder; // rgb(167, 2, 54) | crystalRed (5% darker)
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	background-color: #efefef;
+	color: $black;
+	background-color: $grey--v-lt;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	max-width: 1450px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+#background {
+
+	background-color: $bgtest;
+
+	&:before {
+		content: '#{$bgtest}';
+		font-size: 2rem;
+		color: $black;
+		margin: 10rem 2rem;
+		text-align: center;
+		display: inline-block;
+		padding: 2rem;
+		background-color: #ffffff;
+		border-color: $black;
+		border-style: solid;
+		border-width: 1px;
+		// position: absolute;
+		// left: 50%;
+		// transform: translateX(50%);
+		// transform: translateY(50%);
+	}
+
+}

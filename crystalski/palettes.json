@@ -1,0 +1,286 @@
+{
+	"palettes": [
+		{
+			"name": "Base colours",
+			"id": "base",
+			"colours": [
+				{
+					"name": "black",
+					"hex": "#252a32",
+					"rgb": "(37,42,50)",
+					"sass": "$black",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "white",
+					"hex": "#ffffff",
+					"rgb": "(255,255,255)",
+					"sass": "$white",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Greys",
+			"id": "grey",
+			"colours": [
+				{
+					"name": "section grey",
+					"hex": "#f9f9f9",
+					"rgb": "(249,249,249)",
+					"sass": "$sectionGrey",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "very light grey",
+					"hex": "#f7f7f7",
+					"rgb": "(247,247,247)",
+					"sass": "$grey--v-lt",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "light grey",
+					"hex": "#efefef",
+					"rgb": "(239,239,239)",
+					"sass": "$grey--lt",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "section grey dk",
+					"hex": "#d1d1d1",
+					"rgb": "(209,209,209)",
+					"sass": "$sectionGreyDk",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "mid grey",
+					"hex": "#cccccc",
+					"rgb": "(204,204,204)",
+					"sass": "$grey--mid",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "dark grey",
+					"hex": "#a3a3a3",
+					"rgb": "(163,163,163)",
+					"sass": "$grey--dk",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "very dark grey",
+					"hex": "#737373",
+					"rgb": "(115,115,115)",
+					"sass": "$grey--v-dk",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Greens",
+			"id": "green",
+			"colours": [
+				{
+					"name": "crystalDarkGreen",
+					"hex": "#005959",
+					"rgb": "(0, 89, 89)",
+					"sass": "$colorOne",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "crystalGreen",
+					"hex": "#00ce9b",
+					"rgb": "(0, 206, 155)",
+					"sass": "$colorThree",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "crystalLightGreen",
+					"hex": "#ccf5eb",
+					"rgb": "(204, 245, 235)",
+					"sass": "$colorFour",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "super pale green",
+					"hex": "#f5fdfb",
+					"rgb": "(245, 253, 251)",
+					"sass": "$shadow",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "super pale green",
+					"hex": "#f5fdfb",
+					"rgb": "(245, 253, 251)",
+					"sass": "$new-summary-panel-bg-color",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "very pale green",
+					"hex": "#cee1e1",
+					"rgb": "(206, 225, 225)",
+					"sass": "$infoBoxBorder",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "greeny",
+					"hex": "#649b99",
+					"rgb": "(100, 155, 153)",
+					"sass": "$new-summary-panel-span-color",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "bright green",
+					"hex": "#00cd9b",
+					"rgb": "(0, 205, 155)",
+					"sass": "$searchPanelSeperator",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "green",
+					"hex": "#5aa896",
+					"rgb": "(90, 168, 150)",
+					"sass": "$new-summary-panel-border-color",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "green",
+					"hex": "#cdf5eb",
+					"rgb": "(205, 245, 235)",
+					"sass": "$new-summary-panel-section-bg-color",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "green",
+					"hex": "#1b6867",
+					"rgb": "(27, 104, 103)",
+					"sass": "$new-summary-panel-header-color",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "green",
+					"hex": "#246d6d",
+					"rgb": "(36, 109, 109)",
+					"sass": "$new-summary-panel-strong-color",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "crystalLightGreen",
+					"hex": "#ccf5eb",
+					"rgb": "(204, 245, 235)",
+					"sass": "$lightBrand",
+					"ref": "$colorFour"
+				},
+				{
+					"name": "super pale green",
+					"hex": "#f5fdfb",
+					"rgb": "(245, 253, 251)",
+					"sass": "$infoBoxContentBG",
+					"ref": "$shadow"
+				},
+				{
+					"name": "crystalDarkGreen",
+					"hex": "#005959",
+					"rgb": "(0, 89, 89)",
+					"sass": "$infoBoxHeaderText",
+					"ref": "$colorOne"
+				},
+				{
+					"name": "very pale green",
+					"hex": "#cee1e1",
+					"rgb": "(206, 225, 225)",
+					"sass": "$borderColour",
+					"ref": "$infoBoxBorder"
+				},
+				{
+					"name": "super pale green",
+					"hex": "#f5fdfb",
+					"rgb": "(245, 253, 251)",
+					"sass": "$infoBoxHeaderBG",
+					"ref": "$shadow"
+				},
+				{
+					"name": "crystalGreen",
+					"hex": "#00ce9b",
+					"rgb": "(0, 206, 155)",
+					"sass": "$searchPanelBtnBG",
+					"ref": "$colorThree"
+				},
+				{
+					"name": "crystalGreen (dk 10%)",
+					"hex": "#009b75",
+					"rgb": "(0, 155, 117)",
+					"sass": "$searchPanelBtnBorder",
+					"ref": "$searchPanelBtnBG"
+				},
+				{
+					"name": "crystalGreen",
+					"hex": "#00ce9b",
+					"rgb": "(0, 206, 155)",
+					"sass": "$tertiaryBtnBG",
+					"ref": "$colorThree"
+				},
+				{
+					"name": "crystalGreen (dk 5%)",
+					"hex": "#00b588",
+					"rgb": "(0, 181, 136)",
+					"sass": "$tertiaryBtnBorder",
+					"ref": "$colorThree"
+				}
+			]
+		},
+		{
+			"name": "Purples",
+			"id": "purple",
+			"colours": [
+				{
+					"name": "crystalPurple",
+					"hex": "#84329b",
+					"rgb": "(132, 50, 155)",
+					"sass": "$colorTwo",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "crystalPurpleDark",
+					"hex": "#65137c",
+					"rgb": "(101, 19, 124)",
+					"sass": "$crystal_purple--dark",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "purple",
+					"hex": "#853D9B",
+					"rgb": "(133, 61, 155)",
+					"sass": "$new-summary-panel-purple",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Other colours",
+			"id": "others",
+			"colours": [
+				{
+					"name": "crystalBlue",
+					"hex": "#639bc6",
+					"rgb": "(99, 155, 198)",
+					"sass": "$crystal_blue",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "crystalYellow",
+					"hex": "#ffd72e",
+					"rgb": "(255, 215, 46)",
+					"sass": "$crystal_yellow",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "crystalRed",
+					"hex": "#c0023e",
+					"rgb": "(192, 2, 62)",
+					"sass": "$crystal_red",
+					"ref": "hard-coded"
+				}
+			]
+		}
+	]
+}

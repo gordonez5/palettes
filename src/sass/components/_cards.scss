@@ -1,0 +1,154 @@
+.cardgroup {
+	// max-width: 600px;
+	h2 {
+		cursor: pointer;
+		position: relative;
+
+		&:after {
+			content: '';
+			width: 2rem;
+			height: 2rem;
+			background-image: url(../../img/chevron--lg.png);
+			background-position: 50%;
+			background-repeat: no-repeat;
+			background-size: 1.5rem;
+			position: absolute;
+			right: 1rem;
+			top: 50%;
+			margin-top: -15px;
+		}
+	}
+
+	&.active h2:after {
+		transform: rotate(180deg);
+	}
+}
+
+.cards {
+	display: none;
+	flex-wrap: wrap;
+
+	.active & {
+		display: flex;
+	}
+
+}
+
+.card {
+	margin: 0 0 2rem;
+	padding: 0 1rem;
+	position: relative;
+	width: 100%;
+
+	@include mq( from-sm ) {
+		width: 33.333%;
+	}
+
+	@include mq( sm ) {
+		width: 25%;
+	}
+
+	@include mq( from-md ) {
+		width: 25%;
+	}
+
+	h3 {
+		font-weight: bold;
+	}
+
+	h4 {
+		font-family: consolas, monospace;
+		font-size: 0.8rem;
+
+	}
+
+	h5 {
+		font-family: consolas, monospace;
+		font-size: 0.8rem;
+		a {
+			border-color: $black;
+			border-style: dotted;
+			border-width: 0 0 1px;
+			cursor: pointer;
+			text-decoration: none;
+		}
+
+	}
+
+	&__swatch {
+		color: transparent;
+		display: flex;
+		height: 0;
+		padding-bottom: 100%;
+		text-align: center;
+
+		&:before {
+			content: 'toggle format';
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 50%;
+			margin-top: -0.5em;
+			display: none;
+		}
+
+		&:hover {
+			color: white;
+			text-decoration: none;
+			&:before {
+				display: block;
+			}
+		}
+
+		& ~ [data-format="hex"] {
+			display: none;
+		}
+		& ~ [data-format="rgb"] {
+			display: block;
+		}
+
+		&.hide-rgb {
+			& ~ [data-format="hex"] {
+				display: block;
+			}
+			& ~ [data-format="rgb"] {
+				display: none;
+			}
+		}
+
+		&[data-hex="#ffffff"],
+		&[data-hex="#efefef"],
+		&[data-hex="#f7f7f7"],
+		&[data-hex="#f9f9f9"] {
+			border-color: #999999;
+			border-style: solid;
+			border-width: 1px;
+			&:hover {
+				color: $black;
+			}
+		}
+
+	}
+
+	&__value {
+		font-family: consolas, monospace;
+		border-width: 0 0 1px 0;
+		border-style: solid;
+		border-color: black;
+		text-align: right;
+		width: 100%;
+		padding: 0.5em 0;
+		// text-transform: uppercase;
+		letter-spacing: 1px;
+		@include mq( from-sm ) {
+			// width: 10rem;
+		}
+		&:before {
+			content: 'RGB: ';
+			display: block;
+			width: 20px;
+			height: 20px;
+		}
+	}
+
+}

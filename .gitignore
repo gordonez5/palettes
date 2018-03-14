@@ -1,0 +1,12 @@
+.*
+!.gitignore
+*.log
+
+node_modules/
+
+dist/*
+dist/css/maps/
+
+fonts/
+
+seriouslytacky/

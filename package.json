@@ -1,0 +1,33 @@
+{
+	"name": "palettes",
+	"description": "Colour palettes",
+	"author": "Simon Gordon",
+	"version": "1.0.0",
+	"main": "gulpfile.js",
+	"dependencies": {
+		"jquery": "^3.3.1",
+		"mustache": "^2.3.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"autoprefixer": "^6.7.7",
+		"gulp": "^3.9.1",
+		"gulp-clean-css": "^3.9.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-jshint": "^2.1.0",
+		"gulp-postcss": "^6.4.0",
+		"gulp-rename": "^1.2.2",
+		"gulp-sass": "^3.1.0",
+		"gulp-sourcemaps": "^1.12.0",
+		"gulp-uglify": "^1.5.4",
+		"jshint": "^2.9.5",
+		"node-notifier": "^4.6.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "gordonez5@bitbucket.org:gordonez5/palettes.git"
+	},
+	"license": "MIT"
+}

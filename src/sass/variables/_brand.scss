@@ -1,0 +1,103 @@
+// BRAND COLOURS - immutable
+
+// crystalBlack
+// #252a32 | rgb(37, 42, 50)
+$crystal_black: #252a32;
+
+// crystalDarkGreen
+// #005959 | rgb(0, 89, 89)
+$crystal_green--dark: #005959;
+
+// crystalBrightGreen
+// #00ce9b | rgb(204, 245, 235)
+$crystal_green--bright: #00ce9b;
+
+// crystalLightGreen
+// #ccf5eb | rgb(204, 245, 235)
+$crystal_green--light: #ccf5eb;
+
+// crystalPurple
+// #84329b | rgb(132, 50, 155)
+$crystal_purple: #84329b;
+
+// crystalDarkPurple
+// #65137c | rgb(101, 19, 124)
+$crystal_purple--dark: #65137c;
+
+// crystalYellow
+// #ffd72e | rgb(255, 215, 46)
+$crystal_yellow: #ffd72e;
+
+// crystalBlue
+// #639BC6 | rgb(99, 155, 198)
+$crystal_blue: #639BC6;
+
+// crystalRed
+// #c0023e | rgb(192, 2, 62)
+$crystal_red: #c0023e;
+
+
+
+$colorOne: $crystal_green--dark;
+$colorTwo: $crystal_purple;
+$colorThree: $crystal_green--bright;
+$colorFour: $crystal_green--light;
+$colorFive: $crystal_yellow;
+$colorSix: $crystal_blue;
+
+
+
+$shadow: #F5FDFB;
+$lightBrand: $colorFour; // eg price panel colour
+
+$linkColor: $colorSix;
+$linkColorHover: $red;
+
+// Full Width Search Panel
+$searchPanelBG: $crystal_black;
+$searchPanelSeperator: #00CD9B;
+$searchPanelBtnBG: $colorThree;
+$searchPanelBtnBorder: darken($searchPanelBtnBG, 10%);
+$searchPanelModalBG: #e0e0e0;
+
+// Buttons
+$primaryBtnBG: $crystal_red;
+$primaryBtnBorder: darken($primaryBtnBG, 5%); // #a70236
+$secondaryBtnBG: $crystal_purple--dark;
+$secondaryBtnBorder: darken($secondaryBtnBG, 5%);
+$tertiaryBtnBG: $colorThree;
+$tertiaryBtnBorder: darken($tertiaryBtnBG, 5%);
+
+// Info box colours
+$infoBoxBorder: #cee1e1;
+$infoBoxHeaderBG: $shadow;
+$infoBoxHeaderText: $colorOne;
+$infoBoxContentBG: $shadow;
+
+// border colour
+$borderColour: $infoBoxBorder;
+
+// Holiday summary panel
+$holidaySummaryBG: $crystal_black;
+
+// Summary panel
+$summaryPanel: $crystal_black;
+
+// Breadcrumbs
+$breadCrumbs: $crystal_black;
+
+// Fonts
+$brandFontHeading: 'Brandon Grotesque Regular', sans-serif;
+$brandFontHeadingBold: 'Brandon Grotesque Bold', sans-serif;
+$brandFontText: Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+
+$new-summary-panel-bg-color: #F5FDFB;
+$new-summary-panel-border-color: #5AA896;
+$new-summary-panel-section-bg-color: #CDF5EB;
+$new-summary-panel-header-color: #1B6867;
+$new-summary-panel-strong-color : #246D6D;
+$new-summary-panel-span-color: #649B99;
+$new-summary-panel-grey-color: #737182;
+$travel-border-color: #F9F9F9;
+$new-summary-panel-purple: #853D9B;
