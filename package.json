@@ -1,6 +1,6 @@
 {
 	"name": "palettes",
-	"description": "Colour palettes",
+	"description": "A mini app to display a JSON-encoded colour palette.",
 	"author": "Simon Gordon",
 	"version": "1.0.0",
 	"main": "gulpfile.js",
