@@ -52,6 +52,10 @@
 		width: 25%;
 	}
 
+	h3, h4, h5 {
+		margin-bottom: 0.5rem;
+	}
+
 	h3 {
 		font-weight: bold;
 	}
@@ -77,6 +81,7 @@
 
 	&__swatch {
 		color: transparent;
+		cursor: pointer;
 		display: flex;
 		height: 0;
 		padding-bottom: 100%;
@@ -100,13 +105,6 @@
 			}
 		}
 
-		& ~ [data-format="hex"] {
-			display: none;
-		}
-		& ~ [data-format="rgb"] {
-			display: block;
-		}
-
 		&.hide-rgb {
 			& ~ [data-format="hex"] {
 				display: block;
@@ -116,10 +114,13 @@
 			}
 		}
 
-		&[data-hex="#ffffff"],
-		&[data-hex="#efefef"],
-		&[data-hex="#f7f7f7"],
-		&[data-hex="#f9f9f9"] {
+		// &[data-hex="#ffffff"],
+		// &[data-hex="#efefef"],
+		// &[data-hex="#f7f7f7"],
+		// &[data-hex="#f5fdfb"],
+		// &[data-hex="#f9f9f9"] {
+		// &[data-bright="true"] {
+		&.pale {
 			border-color: #999999;
 			border-style: solid;
 			border-width: 1px;
@@ -130,11 +131,38 @@
 
 	}
 
+	.inputs {
+
+		[data-format] {
+			display: none;
+		}
+
+		input[type="text"] {
+			-webkit-appearance: none;
+			border-radius: 0;
+			margin: 0;
+			text-align: center;
+		}
+
+		input:focus {
+			outline: 0;
+		}
+
+	}
+
+	[data-colourmode="hex"] ~ .inputs [data-format="hex"],
+	[data-colourmode="rgb"] ~ .inputs [data-format="rgb"],
+	[data-colourmode="hsl"] ~ .inputs [data-format="hsl"] {
+		display: block;
+	}
+
+
 	&__value {
 		font-family: consolas, monospace;
 		border-width: 0 0 1px 0;
 		border-style: solid;
 		border-color: black;
+		cursor: pointer;
 		text-align: right;
 		width: 100%;
 		padding: 0.5em 0;
@@ -144,11 +172,22 @@
 			// width: 10rem;
 		}
 		&:before {
+			color: red;
 			content: 'RGB: ';
 			display: block;
 			width: 20px;
 			height: 20px;
 		}
+
+		&::selection {
+			background: #ffd72e; /* WebKit/Blink Browsers */
+			color: $black;
+		}
+		&::-moz-selection {
+			background: #ffd72e; /* Gecko Browsers */
+			color: $black;
+		}
+
 	}
 
 }

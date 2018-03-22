@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- <link rel="icon" type="image/x-icon" href="favicon_16.png" /> -->
-<link rel='stylesheet' href='oldstyles.css' type='text/css' media='all' />
 <link rel='stylesheet' href='../dist/css/styles.css' type='text/css' media='all' />
+<!-- <link rel='stylesheet' href='oldstyles.css' type='text/css' media='all' /> -->
 
 </head>
 
@@ -18,7 +18,14 @@
 
 		<h1>Crystal Ski</h1>
 
-		<div class="square"></div>
+		<div id="switch" class="mode-switch">
+			<input type="radio" id="switch_hex" name="switch_mode" value="hex" checked/>
+			<label for="switch_hex">HEX</label>
+			<input type="radio" id="switch_rgb" name="switch_mode" value="rgb" />
+			<label for="switch_rgb">RGB</label>
+			<input type="radio" id="switch_hsl" name="switch_mode" value="hsl" />
+			<label for="switch_hsl">HSL</label>
+		</div>
 
 		<div id="cards">
 
@@ -39,9 +46,12 @@
 							<h3>{{name}}</h3>
 							<h4>{{sass}}</h4>
 							<h5><a title="{{ref}}">Ref: {{ref}}</a></h5>
-							<a href="#" class="card__swatch hide-rgb" data-hex="{{hex}}" title="{{name}} &ndash; {{hex}} | rgb{{rgb}}" style="background-color:{{hex}}"></a>
-							<input type="text" class="card__value colour-value--prefixed" data-format="hex" value="{{hex}}">
-							<input type="text" class="card__value colour-value--prefixed" data-format="rgb" value="{{rgb}}">
+							<div class="card__swatch" data-colourmode="hex" data-hex="{{hex}}" title="{{name}} &ndash; {{hex}} | rgb{{rgb}} | HSL{{hsl}}" style="background-color:{{hex}}"></div>
+							<div class="inputs">
+								<input type="text" class="card__value colour-value--prefixed" data-format="hex" value="{{hex}}">
+								<input type="text" class="card__value colour-value--prefixed" data-format="rgb" value="rgb{{rgb}}">
+								<input type="text" class="card__value colour-value--prefixed" data-format="hsl" value="hsl{{hsl}}">
+							</div>
 						</div>
 						{{/colours}}
 					</div>

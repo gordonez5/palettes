@@ -1,4 +1,5 @@
 {
+	"site": "Crystal Ski (new)",
 	"palettes": [
 		{
 			"name": "Base colours",
@@ -8,6 +9,7 @@
 					"name": "black",
 					"hex": "#252a32",
 					"rgb": "(37,42,50)",
+					"hsl": "(217,15%,17%)",
 					"sass": "$black",
 					"ref": "hard-coded"
 				},
@@ -15,6 +17,7 @@
 					"name": "white",
 					"hex": "#ffffff",
 					"rgb": "(255,255,255)",
+					"hsl": "(0,0%,100%)",
 					"sass": "$white",
 					"ref": "hard-coded"
 				}
@@ -28,6 +31,7 @@
 					"name": "section grey",
 					"hex": "#f9f9f9",
 					"rgb": "(249,249,249)",
+					"hsl": "(0,0%,98%)",
 					"sass": "$sectionGrey",
 					"ref": "hard-coded"
 				},
@@ -35,6 +39,7 @@
 					"name": "very light grey",
 					"hex": "#f7f7f7",
 					"rgb": "(247,247,247)",
+					"hsl": "(0,0%,97%)",
 					"sass": "$grey--v-lt",
 					"ref": "hard-coded"
 				},
@@ -42,6 +47,7 @@
 					"name": "light grey",
 					"hex": "#efefef",
 					"rgb": "(239,239,239)",
+					"hsl": "(0,0%,94%)",
 					"sass": "$grey--lt",
 					"ref": "hard-coded"
 				},
@@ -49,6 +55,7 @@
 					"name": "section grey dk",
 					"hex": "#d1d1d1",
 					"rgb": "(209,209,209)",
+					"hsl": "(0,0%,82%)",
 					"sass": "$sectionGreyDk",
 					"ref": "hard-coded"
 				},
@@ -56,6 +63,7 @@
 					"name": "mid grey",
 					"hex": "#cccccc",
 					"rgb": "(204,204,204)",
+					"hsl": "(0,0%,80%)",
 					"sass": "$grey--mid",
 					"ref": "hard-coded"
 				},
@@ -63,6 +71,7 @@
 					"name": "dark grey",
 					"hex": "#a3a3a3",
 					"rgb": "(163,163,163)",
+					"hsl": "(0,0%,64%)",
 					"sass": "$grey--dk",
 					"ref": "hard-coded"
 				},
@@ -70,6 +79,7 @@
 					"name": "very dark grey",
 					"hex": "#737373",
 					"rgb": "(115,115,115)",
+					"hsl": "(0,0%,45%)",
 					"sass": "$grey--v-dk",
 					"ref": "hard-coded"
 				}
@@ -83,6 +93,7 @@
 					"name": "crystalDarkGreen",
 					"hex": "#005959",
 					"rgb": "(0, 89, 89)",
+					"hsl": "(180,100%,35%)",
 					"sass": "$colorOne",
 					"ref": "hard-coded"
 				},
@@ -90,6 +101,7 @@
 					"name": "crystalGreen",
 					"hex": "#00ce9b",
 					"rgb": "(0, 206, 155)",
+					"hsl": "(165,100%,81%)",
 					"sass": "$colorThree",
 					"ref": "hard-coded"
 				},
@@ -97,6 +109,7 @@
 					"name": "crystalLightGreen",
 					"hex": "#ccf5eb",
 					"rgb": "(204, 245, 235)",
+					"hsl": "(165,17%,96%)",
 					"sass": "$colorFour",
 					"ref": "hard-coded"
 				},
@@ -104,6 +117,7 @@
 					"name": "super pale green",
 					"hex": "#f5fdfb",
 					"rgb": "(245, 253, 251)",
+					"hsl": "(165,3%,99%)",
 					"sass": "$shadow",
 					"ref": "hard-coded"
 				},
@@ -111,6 +125,7 @@
 					"name": "super pale green",
 					"hex": "#f5fdfb",
 					"rgb": "(245, 253, 251)",
+					"hsl": "(165,3%,99%)",
 					"sass": "$new-summary-panel-bg-color",
 					"ref": "hard-coded"
 				},
@@ -118,6 +133,7 @@
 					"name": "very pale green",
 					"hex": "#cee1e1",
 					"rgb": "(206, 225, 225)",
+					"hsl": "(180,8%,88%)",
 					"sass": "$infoBoxBorder",
 					"ref": "hard-coded"
 				},
@@ -125,6 +141,7 @@
 					"name": "greeny",
 					"hex": "#649b99",
 					"rgb": "(100, 155, 153)",
+					"hsl": "(178,35%,61%)",
 					"sass": "$new-summary-panel-span-color",
 					"ref": "hard-coded"
 				},
@@ -132,6 +149,7 @@
 					"name": "bright green",
 					"hex": "#00cd9b",
 					"rgb": "(0, 205, 155)",
+					"hsl": "(165,100%,80%)",
 					"sass": "$searchPanelSeperator",
 					"ref": "hard-coded"
 				},
@@ -139,6 +157,7 @@
 					"name": "green",
 					"hex": "#5aa896",
 					"rgb": "(90, 168, 150)",
+					"hsl": "(166,46%,66%)",
 					"sass": "$new-summary-panel-border-color",
 					"ref": "hard-coded"
 				},
@@ -146,6 +165,7 @@
 					"name": "green",
 					"hex": "#cdf5eb",
 					"rgb": "(205, 245, 235)",
+					"hsl": "(165,16%,96%)",
 					"sass": "$new-summary-panel-section-bg-color",
 					"ref": "hard-coded"
 				},
@@ -153,6 +173,7 @@
 					"name": "green",
 					"hex": "#1b6867",
 					"rgb": "(27, 104, 103)",
+					"hsl": "(179,74%,41%)",
 					"sass": "$new-summary-panel-header-color",
 					"ref": "hard-coded"
 				},
@@ -160,6 +181,7 @@
 					"name": "green",
 					"hex": "#246d6d",
 					"rgb": "(36, 109, 109)",
+					"hsl": "(180,67%,43%)",
 					"sass": "$new-summary-panel-strong-color",
 					"ref": "hard-coded"
 				},
@@ -167,6 +189,7 @@
 					"name": "crystalLightGreen",
 					"hex": "#ccf5eb",
 					"rgb": "(204, 245, 235)",
+					"hsl": "(165,16%,96%)",
 					"sass": "$lightBrand",
 					"ref": "$colorFour"
 				},
@@ -174,6 +197,7 @@
 					"name": "super pale green",
 					"hex": "#f5fdfb",
 					"rgb": "(245, 253, 251)",
+					"hsl": "(165,3%,99%)",
 					"sass": "$infoBoxContentBG",
 					"ref": "$shadow"
 				},
@@ -181,6 +205,7 @@
 					"name": "crystalDarkGreen",
 					"hex": "#005959",
 					"rgb": "(0, 89, 89)",
+					"hsl": "(180,100%,35%)",
 					"sass": "$infoBoxHeaderText",
 					"ref": "$colorOne"
 				},
@@ -188,6 +213,7 @@
 					"name": "very pale green",
 					"hex": "#cee1e1",
 					"rgb": "(206, 225, 225)",
+					"hsl": "(180,8%,88%)",
 					"sass": "$borderColour",
 					"ref": "$infoBoxBorder"
 				},
@@ -195,6 +221,7 @@
 					"name": "super pale green",
 					"hex": "#f5fdfb",
 					"rgb": "(245, 253, 251)",
+					"hsl": "(165,3%,99%)",
 					"sass": "$infoBoxHeaderBG",
 					"ref": "$shadow"
 				},
@@ -202,6 +229,7 @@
 					"name": "crystalGreen",
 					"hex": "#00ce9b",
 					"rgb": "(0, 206, 155)",
+					"hsl": "(165,100%,81%)",
 					"sass": "$searchPanelBtnBG",
 					"ref": "$colorThree"
 				},
@@ -209,6 +237,7 @@
 					"name": "crystalGreen (dk 10%)",
 					"hex": "#009b75",
 					"rgb": "(0, 155, 117)",
+					"hsl": "(165,100%,61%)",
 					"sass": "$searchPanelBtnBorder",
 					"ref": "$searchPanelBtnBG"
 				},
@@ -216,6 +245,7 @@
 					"name": "crystalGreen",
 					"hex": "#00ce9b",
 					"rgb": "(0, 206, 155)",
+					"hsl": "(165,100%,81%)",
 					"sass": "$tertiaryBtnBG",
 					"ref": "$colorThree"
 				},
@@ -223,6 +253,7 @@
 					"name": "crystalGreen (dk 5%)",
 					"hex": "#00b588",
 					"rgb": "(0, 181, 136)",
+					"hsl": "(165,100%,71%)",
 					"sass": "$tertiaryBtnBorder",
 					"ref": "$colorThree"
 				}
@@ -236,6 +267,7 @@
 					"name": "crystalPurple",
 					"hex": "#84329b",
 					"rgb": "(132, 50, 155)",
+					"hsl": "(287,68%,61%)",
 					"sass": "$colorTwo",
 					"ref": "hard-coded"
 				},
@@ -243,6 +275,7 @@
 					"name": "crystalPurpleDark",
 					"hex": "#65137c",
 					"rgb": "(101, 19, 124)",
+					"hsl": "(287,85%,49%)",
 					"sass": "$crystal_purple--dark",
 					"ref": "hard-coded"
 				},
@@ -250,6 +283,7 @@
 					"name": "purple",
 					"hex": "#853D9B",
 					"rgb": "(133, 61, 155)",
+					"hsl": "(286,61%,61%)",
 					"sass": "$new-summary-panel-purple",
 					"ref": "hard-coded"
 				}
@@ -263,6 +297,7 @@
 					"name": "crystalBlue",
 					"hex": "#639bc6",
 					"rgb": "(99, 155, 198)",
+					"hsl": "(206,50%,78%)",
 					"sass": "$crystal_blue",
 					"ref": "hard-coded"
 				},
@@ -270,6 +305,7 @@
 					"name": "crystalYellow",
 					"hex": "#ffd72e",
 					"rgb": "(255, 215, 46)",
+					"hsl": "(49,82%,100%)",
 					"sass": "$crystal_yellow",
 					"ref": "hard-coded"
 				},
@@ -277,6 +313,7 @@
 					"name": "crystalRed",
 					"hex": "#c0023e",
 					"rgb": "(192, 2, 62)",
+					"hsl": "(341,99%,75%)",
 					"sass": "$crystal_red",
 					"ref": "hard-coded"
 				}

@@ -1,0 +1,58 @@
+.mode-switch {
+	overflow: hidden;
+	// position: absolute;
+	// margin: 1rem auto;
+	text-align: center;
+	position: absolute;
+	top: 2rem;
+	right: 2.5rem;
+
+	input {
+		position: absolute !important;
+		clip: rect(0, 0, 0, 0);
+		height: 1px;
+		width: 1px;
+		border: 0;
+		overflow: hidden;
+
+		&:checked + label {
+			background-color: $grey--v-dk;
+			color: $white;
+		}
+
+	}
+
+	label {
+		background-color: $grey--lt;
+		border-color: $grey--dk;
+		border-style: solid;
+		border-width: 1px;
+		color: rgba(0, 0, 0, 0.6);
+		cursor: pointer;
+		display: block;
+		margin-bottom: 0.25rem;
+		padding: 0.25rem 0.5rem;
+		text-align: center;
+		@include mq( from-sm ) {
+			display: inline-block;
+		}
+
+		&:last-of-type {
+			margin: 0;
+		}
+
+		&:hover {
+			cursor: pointer;
+		}
+
+		&:first-of-type {
+			// border-radius: 4px 0 0 4px;
+		}
+
+		&:last-of-type {
+			// border-radius: 0 4px 4px 0;
+		}
+
+	}
+
+}
