@@ -115,7 +115,7 @@ var view = (function( $ ) {
 	return {
 		render: render,
 		toggle: toggle
-	}
+	};
 
 })( jQuery );
 
@@ -134,12 +134,12 @@ var ajax = (function( $ ) {
 				view.render( data );
 				view.toggle();
 			}
-		}
+		};
 		xhr.send();
 	}
 
 	return {
 		get: get
-	}
+	};
 
 })( jQuery );
