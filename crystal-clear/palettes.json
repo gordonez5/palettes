@@ -1,0 +1,199 @@
+{
+	"site": "Crystal Clear",
+	"palettes": [
+		{
+			"name": "Primary",
+			"id": "primary",
+			"colours": [
+				{
+					"name": "primary-dark",
+					"hex": "#1c6f71",
+					"rgb": "(28,111,113)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$primary-dark",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "primary-medium",
+					"hex": "#00ce9b",
+					"rgb": "(0,206,155)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$primary-medium",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "primary-light",
+					"hex": "#ccf5eb",
+					"rgb": "(204,245,235)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$primary-light",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "primary-lightest",
+					"hex": "#f0f9f7",
+					"rgb": "(240,249,247)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$primary-lightest",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Secondary",
+			"id": "secondary",
+			"colours": [
+
+				{
+					"name": "secondary-dark",
+					"hex": "#84329b",
+					"rgb": "(132,50,155)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$secondary-dark",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "secondary-medium",
+					"hex": "#84329b",
+					"rgb": "(132,50,155)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$secondary-medium",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "secondary-light",
+					"hex": "#84329b",
+					"rgb": "(132,50,155)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$secondary-light",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "secondary-lightest",
+					"hex": "#84329b",
+					"rgb": "(132,50,155)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$secondary-lightest",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Links",
+			"id": "links",
+			"colours": [
+
+				{
+					"name": "links-normal",
+					"hex": "#84329b",
+					"rgb": "(132,50,155)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$links-normal",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "links-hover",
+					"hex": "#84329b",
+					"rgb": "(132,50,155)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$links-hover",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Neutral",
+			"id": "neutral",
+			"colours": [
+
+				{
+					"name": "neutral-darkest",
+					"hex": "#252a32",
+					"rgb": "(37,42,50)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$neutral-darkest",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "neutral-dark",
+					"hex": "#707070",
+					"rgb": "(112,112,112)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$neutral-dark",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "neutral-medium",
+					"hex": "#bcbcbc",
+					"rgb": "(188,188,188)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$neutral-medium",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "neutral-medium-light",
+					"hex": "#d6d6d6",
+					"rgb": "(214,214,214)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$neutral-medium-light",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "neutral-light",
+					"hex": "#f5f5f5",
+					"rgb": "(245,245,245)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$neutral-light",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "neutral-lightest",
+					"hex": "#fff",
+					"rgb": "(255,255,255)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$neutral-lightest",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Supporting",
+			"id": "supporting",
+			"colours": [
+
+				{
+					"name": "supporting-blue",
+					"hex": "#0d94d0",
+					"rgb": "(13,148,208)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$supporting-blue",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "supporting-blue-light",
+					"hex": "#2eb4f8",
+					"rgb": "(46,180,248)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$supporting-blue-light",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "supporting-red",
+					"hex": "#c0023e",
+					"rgb": "(192,2,62)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$supporting-red",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "supporting-yellow",
+					"hex": "#e8a94a",
+					"rgb": "(232,169,74)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$supporting-yellow",
+					"ref": "hard-coded"
+				}
+			]
+		}
+	]
+}
