@@ -1,0 +1,165 @@
+{
+  "site": "People Not Tech",
+  "palettes": [
+    {
+      "name": "Brand colours",
+      "id": "brand",
+      "colours": [
+        {
+          "name": "pnt-red1",
+          "hex": "#4f000b",
+          "rgb": "(79,0,11)",
+          "hsl": "(352,100%,15%)",
+          "sass": "$pnt-red1",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "pnt-red2",
+          "hex": "#640d14",
+          "rgb": "(100,13,20)",
+          "hsl": "(355,77%,22%)",
+          "sass": "$pnt-red2",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "pnt-red3",
+          "hex": "#800e13",
+          "rgb": "(128,14,19)",
+          "hsl": "(357,80%,28%)",
+          "sass": "$pnt-red3",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "pnt-gold",
+          "hex": "#af9164",
+          "rgb": "(175,145,100)",
+          "hsl": "(36,32%,54%)",
+          "sass": "$pnt-gold",
+          "ref": "hard-coded"
+        }
+      ]
+    },
+    {
+      "name": "Base colours",
+      "id": "base",
+      "colours": [
+        {
+          "name": "black",
+          "hex": "#151515",
+          "rgb": "(21,21,21)",
+          "hsl": "(0,0%,8%)",
+          "sass": "$black",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "white",
+          "hex": "#ffffff",
+          "rgb": "(255,255,255)",
+          "hsl": "(0,0%,100%)",
+          "sass": "$white",
+          "ref": "hard-coded"
+        }
+      ]
+    },
+    {
+      "name": "Greys",
+      "id": "grey",
+      "colours": [
+        {
+          "name": "very light grey",
+          "hex": "#f7f7f7",
+          "rgb": "(247,247,247)",
+          "hsl": "(0,0%,97%)",
+          "sass": "$grey--v-lt",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "light grey",
+          "hex": "#efefef",
+          "rgb": "(239,239,239)",
+          "hsl": "(0,0%,94%)",
+          "sass": "$grey--lt",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "mid grey",
+          "hex": "#cccccc",
+          "rgb": "(204,204,204)",
+          "hsl": "(0,0%,80%)",
+          "sass": "$grey--mid",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "dark grey",
+          "hex": "#a3a3a3",
+          "rgb": "(163,163,163)",
+          "hsl": "(0,0%,64%)",
+          "sass": "$grey--dk",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "very dark grey",
+          "hex": "#737373",
+          "rgb": "(115,115,115)",
+          "hsl": "(0,0%,45%)",
+          "sass": "$grey--v-dk",
+          "ref": "hard-coded"
+        }
+      ]
+    },
+    {
+      "name": "Other colours",
+      "id": "others",
+      "colours": [
+        {
+          "name": "blue",
+          "hex": "#639bc6",
+          "rgb": "(99, 155, 198)",
+          "hsl": "(206,50%,78%)",
+          "sass": "$supporting_blue",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "yellow",
+          "hex": "#ffd72e",
+          "rgb": "(255, 215, 46)",
+          "hsl": "(49,82%,100%)",
+          "sass": "$supporting_yellow",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "red",
+          "hex": "#c0023e",
+          "rgb": "(192, 2, 62)",
+          "hsl": "(341,99%,75%)",
+          "sass": "$supporting_red",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "reaction-red",
+          "hex": "#cc3232",
+          "rgb": "(204,50,50)",
+          "hsl": "(341,99%,75%)",
+          "sass": "$supporting_red",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "reaction-yellow",
+          "hex": "#e7b416",
+          "rgb": "(231,180,22)",
+          "hsl": "(341,99%,75%)",
+          "sass": "$supporting_red",
+          "ref": "hard-coded"
+        },
+        {
+          "name": "reaction-green",
+          "hex": "#99c140",
+          "rgb": "(153,193,64)",
+          "hsl": "(341,99%,75%)",
+          "sass": "$supporting_red",
+          "ref": "hard-coded"
+        }
+      ]
+    }
+  ]
+}

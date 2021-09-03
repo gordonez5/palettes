@@ -27,7 +27,7 @@ var msg = function( title, message ){
 };
 
 var scriptInput = [
-	// './src/js/Gdz.Base.js',
+	// 'src/js/Gdz.Base.js',
 
 	'./node_modules/jquery/dist/jquery.min.js',
 	// './node_modules/magnific-popup/dist/jquery.magnific-popup.min.js',
@@ -36,27 +36,27 @@ var scriptInput = [
 
 	// './node_modules/moment/min/moment.min.js',
 	// './node_modules/headroom.js/dist/headroom.min.js',
-	// './src/packages/magnific-popup/dist/jquery.magnific-popup.js',
-	// './src/packages/mustache.js/mustache.min.js',
-	// './src/packages/Sortable/Sortable.min.js',
-	// './src/packages/clipboard/dist/clipboard.min.js',
+	// 'src/packages/magnific-popup/dist/jquery.magnific-popup.js',
+	// 'src/packages/mustache.js/mustache.min.js',
+	// 'src/packages/Sortable/Sortable.min.js',
+	// 'src/packages/clipboard/dist/clipboard.min.js',
 
-	'./src/js/modules/*.js',
+	'src/js/modules/*.js',
 
-	'./src/js/main.js',
-	// './src/js/modules/pubsub/pubsub.js',
-	// './src/js/modules/pubsub/ajax.js',
-	// './src/js/modules/pubsub/inputModule.js',
-	// './src/js/modules/pubsub/listModule.js',
-	// // './src/js/modules/pubsub/outputModule.js',
-	// './src/js/modules/pubsub/psEvents.js',
-	// './src/js/Gdz.Scripts.js',
-	// './src/js/Gdz.Ready.js',
-	// './src/js/Gdz.Load.js'
+	'src/js/main.js',
+	// 'src/js/modules/pubsub/pubsub.js',
+	// 'src/js/modules/pubsub/ajax.js',
+	// 'src/js/modules/pubsub/inputModule.js',
+	// 'src/js/modules/pubsub/listModule.js',
+	// // 'src/js/modules/pubsub/outputModule.js',
+	// 'src/js/modules/pubsub/psEvents.js',
+	// 'src/js/Gdz.Scripts.js',
+	// 'src/js/Gdz.Ready.js',
+	// 'src/js/Gdz.Load.js'
 ];
 
 var sassInput = [
-	'./src/sass/*.scss'
+	'src/sass/*.scss'
 ];
 
 var sassOutput = './dist/css/';
@@ -66,8 +66,8 @@ var sassOpts = {
 	errLogToConsole: true,
 	outputStyle: 'nested',
 	includePaths: [
-		'./src/sass',
-		'./src/packages/fontawesome/scss'
+		'src/sass',
+		'src/packages/fontawesome/scss'
 	]
 };
 
@@ -82,7 +82,7 @@ var autoprefixerOpts = {
 
 gulp.task('icons', function() {
 	return gulp
-		.src('./src/packages/fontawesome/fonts/**.*')
+		.src('src/packages/fontawesome/fonts/**.*')
 		.pipe(gulp.dest('./dist/fonts'));
 });
 
@@ -122,20 +122,20 @@ gulp.task('styles', function() {
 
 // critical styles task
 gulp.task('critical', function() {
-	return gulp.src('./src/sass/base/critical.scss')
-		.pipe(sass({includePaths: ['./src/sass/base'], outputStyle: 'expanded'}))
+	return gulp.src('src/sass/base/critical.scss')
+		.pipe(sass({includePaths: ['src/sass/base'], outputStyle: 'expanded'}))
 		.pipe(gulp.dest('./dist/css/'));
 });
 
 // watch task
 gulp.task('watch', function() {
 	gulp.watch([
-		'./src/js/*.js',
-		'./src/js/**/*.js'
+		'src/js/*.js',
+		'src/js/**/*.js'
 	], ['scripts'], msg( 'Javascript Build', 'Built app.js' ));
 	gulp.watch([
-		'./src/sass/*.scss',
-		'./src/sass/**/*.scss'
+		'src/sass/*.scss',
+		'src/sass/**/*.scss'
 	], ['styles'], msg( 'Sass Build', 'Built styles.css' ));
 });
 

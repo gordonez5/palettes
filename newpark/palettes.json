@@ -1,0 +1,265 @@
+{
+	"site": "Newpark Childcare",
+	"palettes": [
+		{
+			"name": "Reds",
+			"id": "reds",
+			"colours": [
+				{
+					"name": "primary-red",
+					"hex": "#",
+					"rgb": "(255,0,0)",
+					"hsl": "()",
+					"sass": "$primary-red",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "bright-red",
+					"hex": "#",
+					"rgb": "(243,0,0)",
+					"hsl": "()",
+					"sass": "$bright-red",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "red3",
+					"hex": "#",
+					"rgb": "(218,0,0)",
+					"hsl": "()",
+					"sass": "$red3",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "dark-red",
+					"hex": "#820000",
+					"rgb": "(130,0,0)",
+					"hsl": "(0, 100%, 25%)",
+					"sass": "$dark-red",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Browns",
+			"id": "browns",
+			"colours": [
+				{
+					"name": "rust",
+					"hex": "#993300",
+					"rgb": "(153,51,0)",
+					"hsl": "(20, 100%, 30%)",
+					"sass": "$rust",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "pale-rust",
+					"hex": "#",
+					"rgb": "(213,128,0)",
+					"hsl": "()",
+					"sass": "$pale-rust",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Greens",
+			"id": "greens",
+			"colours": [
+				{
+					"name": "green1",
+					"hex": "#389208",
+					"rgb": "(56,146,8)",
+					"hsl": "(99,95%,30%)",
+					"sass": "$green1",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "green2",
+					"hex": "#478F0B",
+					"rgb": "(71,143,11)",
+					"hsl": "(93, 92%, 30%)",
+					"sass": "$green2",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "green3",
+					"hex": "#",
+					"rgb": "(0,144,0)",
+					"hsl": "()",
+					"sass": "$green3",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "green4",
+					"hex": "#",
+					"rgb": "(0,128,0)",
+					"hsl": "()",
+					"sass": "$green4",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Yellows",
+			"id": "yellows",
+			"colours": [
+				{
+					"name": "yellow1",
+					"hex": "#F4DB17",
+					"rgb": "(245,219,23)",
+					"hsl": "(53, 91%, 52%)",
+					"sass": "$yellow1",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "yellow2",
+					"hex": "#F3E50B",
+					"rgb": "(243,229,11)",
+					"hsl": "(56, 95%, 50%)",
+					"sass": "$yellow2",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Supporting",
+			"id": "supporting",
+			"colours": [
+				{
+					"name": "royal-blue",
+					"hex": "#",
+					"rgb": "(0,0,238)",
+					"hsl": "()",
+					"sass": "$royal-blue",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "deep-orange",
+					"hex": "#",
+					"rgb": "(255,141,0)",
+					"hsl": "()",
+					"sass": "$deep-orange",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "dark-blue",
+					"hex": "#",
+					"rgb": "(0,2,191)",
+					"hsl": "()",
+					"sass": "$dark-blue",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "purple",
+					"hex": "#",
+					"rgb": "(86,26,139)",
+					"hsl": "()",
+					"sass": "$purple",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "absolute-black",
+					"hex": "#000000",
+					"rgb": "(0,0,0)",
+					"hsl": "(0%,0%,0%)",
+					"sass": "$absolute-black",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "absolute-white",
+					"hex": "#ffffff",
+					"rgb": "(255,255,255)",
+					"hsl": "(0,0,100%)",
+					"sass": "$absolute-white",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Primary",
+			"id": "primary",
+			"colours": []
+		},
+		{
+			"name": "Secondary",
+			"id": "secondary",
+			"colours": []
+		},
+		{
+			"name": "Links",
+			"id": "links",
+			"colours": [
+				{
+					"name": "links-normal",
+					"hex": "#84329b",
+					"rgb": "(132,50,155)",
+					"hsl": "(287,50%,40%)",
+					"sass": "$links-normal",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "links-hover",
+					"hex": "#84329b",
+					"rgb": "(132,50,155)",
+					"hsl": "(287,50%,40%)",
+					"sass": "$links-hover",
+					"ref": "hard-coded"
+				}
+			]
+		},
+		{
+			"name": "Neutral",
+			"id": "neutral",
+			"colours": [
+				{
+					"name": "neutral-darkest",
+					"hex": "#252a32",
+					"rgb": "(37,42,50)",
+					"hsl": "(222,15%,17%)",
+					"sass": "$neutral-darkest",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "neutral-dark",
+					"hex": "#707070",
+					"rgb": "(112,112,112)",
+					"hsl": "(0,0%,44%)",
+					"sass": "$neutral-dark",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "neutral-medium",
+					"hex": "#bcbcbc",
+					"rgb": "(188,188,188)",
+					"hsl": "(0,0%,74%)",
+					"sass": "$neutral-medium",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "neutral-medium-light",
+					"hex": "#d6d6d6",
+					"rgb": "(214,214,214)",
+					"hsl": "(0,0%,84%)",
+					"sass": "$neutral-medium-light",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "neutral-light",
+					"hex": "#f5f5f5",
+					"rgb": "(245,245,245)",
+					"hsl": "(0,0%,96%)",
+					"sass": "$neutral-light",
+					"ref": "hard-coded"
+				},
+				{
+					"name": "neutral-lightest",
+					"hex": "#ffffff",
+					"rgb": "(255,255,255)",
+					"hsl": "(0,0%,100%)",
+					"sass": "$neutral-lightest",
+					"ref": "hard-coded"
+				}
+			]
+		}
+	]
+}

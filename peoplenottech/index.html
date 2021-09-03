@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>People Not Tech Brand Palette</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel='stylesheet' href='../dist/css/styles.css' type='text/css' media='all'>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#eeefec">
+  <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#eeefec">
+
+</head>
+
+<body>
+
+  <div class="wrap">
+
+    <h1>People Not Tech</h1>
+
+    <div id="switch" class="mode-switch">
+      <input type="radio" id="switch_hex" name="switch_mode" value="hex" checked />
+      <label for="switch_hex">HEX</label>
+      <input type="radio" id="switch_rgb" name="switch_mode" value="rgb" />
+      <label for="switch_rgb">RGB</label>
+      <input type="radio" id="switch_hsl" name="switch_mode" value="hsl" />
+      <label for="switch_hsl">HSL</label>
+    </div>
+
+    <div id="cards">
+
+      <script id="cardsTemplate" type="text/template">
+
+				<ul class="contents-list">
+					{{#data}}
+					<li><a href="#{{id}}">{{name}}</a></li>
+					{{/data}}
+				</ul>
+
+				{{#data}}
+				<section id="{{id}}" class="cardgroup active">
+					<h2>{{name}}</h2>
+					<div class="cards">
+						{{#colours}}
+						<div class="card card--sml dynamic">
+							<h3>{{name}}</h3>
+							<h4>{{sass}}</h4>
+							<h5><a title="{{ref}}">Ref: {{ref}}</a></h5>
+							<div class="card__swatch" data-colourmode="hex" data-hex="{{hex}}" title="{{name}} &ndash; {{hex}} | rgb{{rgb}} | HSL{{hsl}}" style="background-color:{{hex}}"></div>
+							<div class="inputs">
+								<input type="text" class="card__value colour-value--prefixed" data-format="hex" value="{{hex}}">
+								<input type="text" class="card__value colour-value--prefixed" data-format="rgb" value="rgb{{rgb}}">
+								<input type="text" class="card__value colour-value--prefixed" data-format="hsl" value="hsl{{hsl}}">
+							</div>
+						</div>
+						{{/colours}}
+					</div>
+				</section>
+				{{/data}}
+			</script>
+
+    </div>
+
+  </div>
+
+  <script src="../dist/js/app.min.js"></script>
+  <script>
+    ajax.get('peoplenottech');
+  </script>
+
+</body>
+
+</html>
